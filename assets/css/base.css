@@ -10,6 +10,7 @@
     --header-height: 120px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height:46px;
 }
 *{
     box-sizing: inherit;
@@ -21,7 +22,9 @@ html{
     box-sizing: border-box;
 }
 
-
+.app {
+    overflow: hidden;
+}
 .grid__row{
     display: flex;
     flex-wrap: wrap;
